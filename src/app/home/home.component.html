@@ -1,1 +1,47 @@
-<p>home works!</p>
+
+<div class="inicio-container d-flex flex-column justify-content-center align-items-center">
+  <h1 class="tema">Desarrollo de Videojuegos Modernos</h1>
+
+  <div class="d-flex justify-content-center mt-3">
+    <div class="countdown d-flex flex-column justify-content-center">
+      <h5 class="text-center countdown-title">Faltan</h5>
+      <div class="d-flex" style="gap: 5px">
+        <div class="d-flex flex-column time-element flex-fill">
+          <p class="text-center">{{ days }}<span>d</span></p>
+        </div>
+        <div class="d-flex flex-column time-element flex-fill">
+          <p class="text-center">{{ hours }}<span>h</span></p>
+        </div>
+        <div class="d-flex flex-column time-element flex-fill">
+          <p class="text-center">{{ minutes }}<span>m</span></p>
+        </div>
+        <div class="d-flex flex-column time-element flex-fill">
+          <p class="text-center">{{ seconds }}<span>s</span></p>
+        </div>
+      </div>
+      <time class="text-center">03/10/2020, 12:00</time>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center w-100 mt-5" style="gap: 30px">
+    <div class="integrantes d-flex flex-column justify-content-center">
+      <p>Impartido por</p>
+      <ul>
+        <li>Allan Lopez</li>
+        <li>Hancel Guzman</li>
+        <li>Juan Guerra</li>
+      </ul>
+    </div>
+    <div class="antares d-flex flex-column justify-content-center align-items-center">
+      <p>Con el apoyo de</p>
+      <img src="assets/images/antares_logo_negativo.svg">
+    </div>
+  </div>
+
+  <button (click)="onIrAWebinar()" [disabled]="!enableAccess" class="btn-webinar mt-3" type="button">Ir a webinar</button>
+
+</div>
+
+<div class="ue">
+
+</div>

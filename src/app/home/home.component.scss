@@ -1,0 +1,151 @@
+
+.inicio-container {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("~src/assets/images/ps5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ue {
+  height: 20rem;
+  background-image: url("~src/assets/images/ue4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.inicio-container .tema {
+  font-family: 'AllTheWayToTheSun', sans-serif;
+  width: 100%;
+  font-size: 3rem;
+  padding-top: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.countdown * {
+  margin: 0;
+  padding: 0;
+}
+
+.countdown {
+  background-color: #D32F2F;
+  color: white;
+  padding: 1rem;
+  border-radius: 3px;
+  border-bottom: #333333 solid 2px;
+}
+
+.countdown .countdown-title {
+  font-family: 'EmotionEngine', sans-serif;
+  color: #F5F5F5;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.countdown .time-element {
+  min-width: 4rem;
+  font-family: 'SlopeOpera';
+  color: #333;
+}
+
+.countdown .time-element p {
+  font-size: 2rem;
+}
+
+.countdown .time-element span {
+  font-size: 1.3rem;
+}
+
+.countdown time {
+  font-family: 'EmotionEngine';
+  font-size: 1rem;
+}
+
+
+.inicio-container .ue-logo {
+  width: 15rem;
+}
+
+.integrantes > * {
+  margin: 0;
+  padding: 0;
+}
+
+.integrantes > p{
+  font-family: 'SlopeOpera', sans-serif;
+}
+
+.integrantes ul {
+  list-style: none;
+}
+
+.integrantes li {
+  color: #F5F5F5;
+  text-transform: uppercase;
+  font-family: 'SlopeOpera', sans-serif;
+  font-size: 1.2rem;
+}
+
+.antares > p {
+  font-family: 'SlopeOpera', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.antares > img {
+  width: 7rem;
+}
+
+.btn-webinar {
+  font-family: 'EmotionEngine', sans-serif;
+  text-transform: uppercase;
+  background-color: #D32F2F;
+  color: #F5F5F5;
+  width: fit-content;
+  border: none;
+  border-bottom: #333 solid 2px;
+  border-radius: 2px;
+  padding: 0.3rem 1rem;
+  transition: background-color 0.5s ease, border-bottom-color 0.5s ease;
+}
+
+.btn-webinar:hover {
+  background-color: #333;
+  border-bottom: #D32F2F solid 2px;
+}
+
+.btn-webinar:disabled,
+.btn-webinar[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: pointer;
+}
+
+.btn-webinar:focus {outline:none;}
+.btn-webinar::-moz-focus-inner {border:0;}
+
+@media only screen and (min-width: 500px){
+
+
+  .inicio-container .tema {
+    width: 30rem;
+  }
+
+  .antares > img {
+    width: 10rem;
+  }
+
+  .integrantes li {
+    font-size: 1.5rem;
+  }
+
+}

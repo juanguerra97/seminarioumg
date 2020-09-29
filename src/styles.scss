@@ -1,1 +1,20 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+  font-family: 'AllTheWayToTheSun';
+  src: url('~src/assets/fonts/AllTheWayToTheSun.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SlopeOpera';
+  src: url('~src/assets/fonts/SlopeOpera.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'EmotionEngine';
+  src: url('~src/assets/fonts/EmotionEngine.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+}
